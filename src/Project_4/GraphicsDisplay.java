@@ -30,7 +30,7 @@ public class GraphicsDisplay extends JPanel {
     public GraphicsDisplay() {
         setBackground(Color.WHITE);
         graphicsStroke = new BasicStroke(3.0f, BasicStroke.CAP_BUTT,
-                BasicStroke.JOIN_ROUND, 10.0f, new float[]{3,1,1,1,2,1,1,1,3,1}, 0.0f);
+                BasicStroke.JOIN_ROUND, 10.0f, new float[]{30,10,10,10,20,10,10,10,30,10}, 0.0f);
         axisStroke = new BasicStroke(2.0f, BasicStroke.CAP_BUTT,
                 BasicStroke.JOIN_MITER, 10.0f, null, 0.0f);
         gridStroke = new BasicStroke(0.5f, BasicStroke.CAP_BUTT, 
